@@ -1,0 +1,32 @@
+{
+  "name": "rubin/yii2-widget-lightbox",
+  "description": "Lightbox widget for Yii2",
+  "keywords": [
+    "yii2",
+    "widget",
+    "lightbox"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Roman Shashurin",
+      "email": "dalamar84@mail.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "bower-asset/lightbox": "^2.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "rubin\\yii2\\widget\\lightbox\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
