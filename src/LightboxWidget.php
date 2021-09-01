@@ -2,7 +2,6 @@
 
 namespace rubin\yii2\widget\lightbox;
 
-use backend\assets\LightboxAsset;
 use yii\base\Widget;
 use yii\helpers\Html;
 
